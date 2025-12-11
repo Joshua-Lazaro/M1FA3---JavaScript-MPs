@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Machine Problem1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="header">
+        <h1>Formative Assesment 3 - JavaScript MPs</h1>
+        <h3>Welcome to Machine Problem: 1-5</h3>
+    </section>
+
+    <div class="container">
+        <section class="ReplaceSpace-container">
+            <div class="form-group">
+                <h2> Replace All</h2>
+                <div class="forms">
+                    
+                    <input type="text" id="txtInput-R" placeholder="Enter text here">
+                    <button id="btnSubmit-R" onclick="replaceSpace()">Remove Spaces</button>
+                    <input type="text" id="txtOutput-R" placeholder="Output will appear here" value="" readonly>
+                </div>
+            </div>
+        </section>
+        <br>
+        <section class="SearchWord-container">
+            <div class="form-group">
+                <h2> Search Word</h2>
+                <div class="forms">
+                    <input type="text" id="txtInput-S" placeholder="Enter text here">
+                    <input type="text" id="txtSearch" placeholder="Enter word to search">
+                    <button id="btnSubmit-S" onclick="SearchWord()">Search</button>
+                    <input type="text" id="txtOutput-S" placeholder="Output will appear here" value="" readonly>
+                </div>
+            </div>
+        </section>
+        <br>
+        <section class="Replace-container">
+            <div class="form-group">
+                <h2> Replace Word</h2>
+                <div class="forms">
+                    <input type="text" id="txtInput-r" placeholder="Enter text here">
+                    <input type="text" id="txtReplace" placeholder="Enter word to replace">
+                    <input type="text" id="txtNewWord" placeholder="Enter new word">
+                    <button id="btnSubmit-r" onclick="replace()">Replace</button>
+                    <input type="text" id="txtOutput-r" placeholder="Output will appear here" value="" readonly>
+                </div>
+            </div>
+        </section>
+        <br>
+        <section class="Count-container">
+            <div class="form-group">
+                <h2> Count Characters</h2>
+                <div class="forms">
+                    <input type="text" id="txtInput-C" placeholder="Enter text here">
+                    <button id="btnSubmit-C" onclick="count()">Count</button>
+                    <input type="text" id="txtOutput-C" placeholder="Output will appear here" value="" readonly>
+                </div>
+            </div>
+        </section>
+        <br>
+        <section class="includes-container">
+            <div class="form-group">
+                <h2> Email Check</h2>
+                <div class="forms">
+                    <input type="text" id="txtInput" placeholder="Enter text here">
+                    <button id="btnSubmit" onclick="includes()">Verify</button>
+                    <input type="text" id="txtOutput" placeholder="Output will appear here" value="" readonly>
+                </div>
+            </div>
+        </section>
+    </div>
+    <section class="footer">
+            <hr>
+            <h4> Week 3 Web Programming Activity</h6>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
